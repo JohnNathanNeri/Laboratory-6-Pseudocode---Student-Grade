@@ -13,8 +13,10 @@ elif age >= 18 and age <= 65:
         print("Your fee is 550.00 pesos")
     else:
         print("Your fee is 750 pesos")
-elif age > 65:
+elif age > 65 and age <100:
     if member == "Yes":
         print("Your fee is 400 pesos")
     else:
         print("Your fee is 600.00 pesos")
+elif age > 100:
+    print("Too old bruh")
